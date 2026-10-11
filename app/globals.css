@@ -24,3 +24,23 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.india-weather-map svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.india-weather-map svg path,
+.india-weather-map svg polygon {
+  fill: #14231a;
+  stroke: #9bf4b8;
+  stroke-width: 0.8;
+  transition: fill 180ms ease;
+}
+
+.india-weather-map svg path:hover,
+.india-weather-map svg polygon:hover {
+  fill: #28543a;
+  cursor: pointer;
+}
