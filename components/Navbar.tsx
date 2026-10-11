@@ -14,7 +14,7 @@ return ( <svg
 );
 }
 
-function LeafMark() {
+export function LeafMark() {
 return ( <svg
    viewBox="0 0 40 40"
    fill="none"
